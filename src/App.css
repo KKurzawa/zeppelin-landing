@@ -198,20 +198,20 @@
 }
 
 .small-welcome-to{
-  width: 15rem;
-  height: 15rem;
+  width: 12rem;
+  height: 12rem;
   border-radius: 50%;
   transform: rotateX(75deg);
   background-color: var(--BACKGROUND-COLOR-TWO);
   box-shadow: 
   /* 0 0 0 .15rem #100D04, */
-  0 0 0 .45rem #623f17, 
-  0 0 0 .60rem #100D04,
-  0 0 0 .9rem #B59330,
-  0 0 0 1.05rem #100D04,
-  0 0 0 1.35rem #623f17, 
-  0 0 0 1.5rem #100D04, 
-  0 0 0 1.65rem #B59330;
+  0 0 0 .5rem #623f17, 
+  0 0 0 .75rem #100D04,
+  0 0 0 1.25rem #B59330,
+  0 0 0 1.5rem #100D04,
+  0 0 0 2rem #623f17, 
+  0 0 0 2.25rem #100D04, 
+  0 0 0 2.75rem #B59330;
 }
 
 .small-welcome,
@@ -228,13 +228,13 @@
   height: 17.5rem;
   box-shadow: 
   /* 0 0 0 .25rem #100D04, */
-  0 0 0 .75rem #623f17, 
-  0 0 0 1rem #100D04,
-  0 0 0 1.75rem #B59330,
-  0 0 0 2rem #100D04,
-  0 0 0 2.75rem #623f17, 
-  0 0 0 3rem #100D04, 
-  0 0 0 3.75rem #B59330;
+  0 0 0 .5rem #623f17, 
+  0 0 0 .75rem #100D04,
+  0 0 0 1.25rem #B59330,
+  0 0 0 1.5rem #100D04,
+  0 0 0 2rem #623f17, 
+  0 0 0 2.25rem #100D04, 
+  0 0 0 2.75rem #B59330;
 }
 
 .small-led-detroit{
@@ -252,13 +252,13 @@
   height: 22rem;
   box-shadow: 
   /* 0 0 0 .5rem #100D04, */
-  0 0 0 1.5rem #623f17, 
-  0 0 0 2rem #100D04,
-  0 0 0 3rem #B59330,
-  0 0 0 3.5rem #100D04,
-  0 0 0 4.5rem #623f17, 
-  0 0 0 5rem #100D04, 
-  0 0 0 6rem #B59330;
+  0 0 0 1rem #623f17, 
+  0 0 0 1.5rem #100D04,
+  0 0 0 2.5rem #B59330,
+  0 0 0 3rem #100D04,
+  0 0 0 4rem #623f17, 
+  0 0 0 4.5rem #100D04, 
+  0 0 0 5.5rem #B59330;
 }
 .small-welcome,
 .small-to,

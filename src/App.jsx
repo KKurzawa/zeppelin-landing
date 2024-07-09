@@ -37,11 +37,11 @@ const App = () => {
       </main>
       {/* small */}
       <main className='small-crop-circle-container flex md:hidden flex-col items-center pt-40 pb-60'>
-        <article className='small-welcome-to flex flex-row justify-center items-center text-xl -mb-[10rem]'>
+        <article className='small-welcome-to flex flex-row justify-center items-center text-xl -mb-[9rem]'>
           <h2 className='small-welcome pr-2'>Welcome </h2>
           <h2 className='small-to'> To</h2>
         </article>
-        <article className='small-led-detroit-container flex justify-center items-center -mb-[11rem]'>
+        <article className='small-led-detroit-container flex justify-center items-center -mb-[12rem]'>
           <h2 className='small-led-detroit text-5xl font-bold'>Led-Detroit</h2>
         </article>
         <article className='small-description flex flex-row justify-center items-center text-xl'>
