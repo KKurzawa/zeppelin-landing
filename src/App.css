@@ -1,0 +1,280 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background:var(--BACKGROUND-COLOR-TWO);
+  /* background: rgb(16,13,4); */
+  
+  
+  
+
+
+  /* fonts */
+  --FONT-ONE: "Oswald", sans-serif;
+  --FONT-TWO: 'Kashmir', sans-serif;
+  --FONT-THREE: "Bebas Neue", sans-serif;
+  --FONT-COLOR: #B59330;
+  --BACKGROUND-COLOR-ONE: #B59330;
+  --BACKGROUND-COLOR-TWO: #100D04;
+}
+
+/* large */
+.crop-circle-container{
+  background: linear-gradient(rgba(16,13,4,1) 10%, rgba(98,63,23,1) 50%, rgba(16,13,4,1) 100%);
+}
+
+.welcome-to{
+  width: 25rem;
+  height: 25rem;
+  border-radius: 50%;
+  transform: rotateX(75deg);
+  background-color: var(--BACKGROUND-COLOR-TWO);
+  box-shadow: 
+  /* 0 0 0 .5rem #100D04, */
+  0 0 0 1.5rem #623f17, 
+  0 0 0 2rem #100D04,
+  0 0 0 2.5rem #B59330,
+  0 0 0 3rem #100D04,
+  0 0 0 4rem #623f17, 
+  0 0 0 4.5rem #100D04, 
+  0 0 0 5.5rem #B59330;
+}
+
+.welcome,
+.to{
+  background-color: var(--BACKGROUND-COLOR-TWO);
+  transform: matrix(1, 0, 0, 24, 0, 0) rotateX(-75deg);
+}
+
+.led-detroit-container{
+  border-radius: 50%;
+  transform: rotateX(75deg);
+  background-color: var(--BACKGROUND-COLOR-TWO);
+  width: 35rem;
+  height: 35rem;
+  box-shadow: 
+  /* 0 0 0 1rem #100D04, */
+  0 0 0 2rem #623f17, 
+  0 0 0 3rem #100D04,
+  0 0 0 5rem #B59330,
+  0 0 0 6rem #100D04,
+  0 0 0 8rem #623f17, 
+  0 0 0 9rem #100D04, 
+  0 0 0 11rem #B59330;
+}
+
+.led-detroit{
+  color: var(--FONT-COLOR);
+  font-family: var(--FONT-TWO);
+  background-color: var(--BACKGROUND-COLOR-TWO);
+  transform: matrix(1, 0, 0, 12, 0, 0) rotateX(-75deg);
+}
+
+.description{
+  border-radius: 50%;
+  transform: rotateX(75deg);
+  background-color: var(--BACKGROUND-COLOR-TWO);
+  width: 45rem;
+  height: 45rem;
+  box-shadow: 
+  /* 0 0 0 1.5rem #100D04, */
+  0 0 0 4.5rem #623f17, 
+  0 0 0 6rem #100D04,
+  0 0 0 9rem #B59330,
+  0 0 0 10.5rem #100D04,
+  0 0 0 13.5rem #623f17, 
+  0 0 0 15rem #100D04, 
+  0 0 0 18rem #B59330;
+}
+.welcome,
+.to,
+.detroits,
+.ultimate,
+.led-zeppelin,
+.experience{
+  color: var(--FONT-COLOR);
+  position: relative;
+  background-color: var(--BACKGROUND-COLOR-TWO);
+  font-family: var(--FONT-THREE);
+}
+
+.detroits,
+.ultimate,
+.led-zeppelin,
+.experience{
+  transform: matrix(1, 0, 0, 24, 0, 0) rotateX(-75deg);
+}
+
+/* medium */
+.medium-crop-circle-container{
+  background: linear-gradient(rgba(16,13,4,1) 0%, rgba(98,63,23,1) 50%, rgba(16,13,4,1) 100%);
+}
+
+.medium-welcome-to{
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  transform: rotateX(75deg);
+  background-color: var(--BACKGROUND-COLOR-TWO);
+  box-shadow: 
+  /* 0 0 0 .25rem #100D04, */
+  0 0 0 .5rem #623f17, 
+  0 0 0 .75rem #100D04,
+  0 0 0 1.25rem #B59330,
+  0 0 0 1.5rem #100D04,
+  0 0 0 2rem #623f17, 
+  0 0 0 2.25rem #100D04, 
+  0 0 0 2.75rem #B59330;
+}
+
+.medium-welcome,
+.medium-to{
+  background-color: var(--BACKGROUND-COLOR-TWO);
+  transform: matrix(1, 0, 0, 24, 0, 0) rotateX(-75deg);
+}
+
+.medium-led-detroit-container{
+  border-radius: 50%;
+  transform: rotateX(75deg);
+  background-color: var(--BACKGROUND-COLOR-TWO);
+  width: 28rem;
+  height: 28rem;
+  box-shadow: 
+  /* 0 0 0 .5rem #100D04, */
+  0 0 0 1.5rem #623f17, 
+  0 0 0 2rem #100D04,
+  0 0 0 3rem #B59330,
+  0 0 0 3.5rem #100D04,
+  0 0 0 4.5rem #623f17, 
+  0 0 0 5rem #100D04, 
+  0 0 0 6rem #B59330;
+}
+
+.medium-led-detroit{
+  font-family: var(--FONT-TWO);
+  color: var(--FONT-COLOR);
+  background-color: var(--BACKGROUND-COLOR-TWO);
+  transform: matrix(1, 0, 0, 12, 0, 0) rotateX(-75deg);
+}
+
+.medium-description{
+  border-radius: 50%;
+  transform: rotateX(75deg);
+  background-color: var(--BACKGROUND-COLOR-TWO);
+  width: 32rem;
+  height: 32rem;
+  box-shadow: 
+  /* 0 0 0 .75rem #100D04, */
+  0 0 0 2.25rem #623f17, 
+  0 0 0 3rem #100D04,
+  0 0 0 4.5rem #B59330,
+  0 0 0 5.25rem #100D04,
+  0 0 0 6.75rem #623f17, 
+  0 0 0 7.5rem #100D04, 
+  0 0 0 9rem #B59330;
+}
+.medium-welcome,
+.medium-to,
+.medium-detroits,
+.medium-ultimate,
+.medium-led-zeppelin,
+.medium-experience{
+  color: var(--FONT-COLOR);
+  position: relative;
+  background-color: var(--BACKGROUND-COLOR-TWO);
+  font-family: var(--FONT-THREE);
+}
+
+.medium-detroits,
+.medium-ultimate,
+.medium-led-zeppelin,
+.medium-experience{
+  transform: matrix(1, 0, 0, 24, 0, 0) rotateX(-75deg);
+}
+
+/* small */
+.small-crop-circle-container{
+  background: linear-gradient(rgba(16,13,4,1) 0%, rgba(98,63,23,1) 35%, rgba(16,13,4,1) 100%);
+}
+
+.small-welcome-to{
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  transform: rotateX(75deg);
+  background-color: var(--BACKGROUND-COLOR-TWO);
+  box-shadow: 
+  /* 0 0 0 .15rem #100D04, */
+  0 0 0 .45rem #623f17, 
+  0 0 0 .60rem #100D04,
+  0 0 0 .9rem #B59330,
+  0 0 0 1.05rem #100D04,
+  0 0 0 1.35rem #623f17, 
+  0 0 0 1.5rem #100D04, 
+  0 0 0 1.65rem #B59330;
+}
+
+.small-welcome,
+.small-to{
+  background-color: var(--BACKGROUND-COLOR-TWO);
+  transform: matrix(1, 0, 0, 24, 0, 0) rotateX(-75deg);
+}
+
+.small-led-detroit-container{
+  border-radius: 50%;
+  transform: rotateX(75deg);
+  background-color: var(--BACKGROUND-COLOR-TWO);
+  width: 17.5rem;
+  height: 17.5rem;
+  box-shadow: 
+  /* 0 0 0 .25rem #100D04, */
+  0 0 0 .75rem #623f17, 
+  0 0 0 1rem #100D04,
+  0 0 0 1.75rem #B59330,
+  0 0 0 2rem #100D04,
+  0 0 0 2.75rem #623f17, 
+  0 0 0 3rem #100D04, 
+  0 0 0 3.75rem #B59330;
+}
+
+.small-led-detroit{
+  color: var(--FONT-COLOR);
+  font-family: var(--FONT-TWO);
+  background-color: var(--BACKGROUND-COLOR-TWO);
+  transform: matrix(1, 0, 0, 12, 0, 0) rotateX(-75deg);
+}
+
+.small-description{
+  border-radius: 50%;
+  transform: rotateX(75deg);
+  background-color: var(--BACKGROUND-COLOR-TWO);
+  width: 22rem;
+  height: 22rem;
+  box-shadow: 
+  /* 0 0 0 .5rem #100D04, */
+  0 0 0 1.5rem #623f17, 
+  0 0 0 2rem #100D04,
+  0 0 0 3rem #B59330,
+  0 0 0 3.5rem #100D04,
+  0 0 0 4.5rem #623f17, 
+  0 0 0 5rem #100D04, 
+  0 0 0 6rem #B59330;
+}
+.small-welcome,
+.small-to,
+.small-detroits,
+.small-ultimate,
+.small-led-zeppelin,
+.small-experience{
+  color: var(--FONT-COLOR);
+  position: relative;
+  background-color: var(--BACKGROUND-COLOR-TWO);
+  font-family: var(--FONT-THREE);
+}
+
+.small-detroits,
+.small-ultimate,
+.small-led-zeppelin,
+.small-experience{
+  transform: matrix(1, 0, 0, 24, 0, 0) rotateX(-75deg);
+}
